@@ -1,0 +1,172 @@
+body {
+    background-image: url(http://braccousa.com/wp-content/uploads/2013/07/Dark-wooden-website-background.jpg);
+    background-size: cover;
+}
+#control {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    overflow: hidden;
+    top: 139px;
+    left: 135px;
+    z-index: 1000;
+    background: #f5f4f4;
+    border: 20px solid #1D1F20;
+    border-radius: 50%;
+    font-family: 'Orbitron', serif;
+}
+.div1 {
+    background-color: #008000;
+    /*green*/
+    
+    border-radius: 100% 0 0 0;
+    top: 0;
+    left: 0;
+    border: 7px solid;
+}
+.div2 {
+    background-color: #ff0000;
+    /* red;*/
+    
+    border-radius: 0 100% 0 0;
+    top: 0;
+    right: 0;
+    border: 7px solid;
+}
+.playBtn {
+    position: absolute;
+    width: 268px;
+    height: 268px;
+    margin: 20px;
+}
+.div3 {
+    background-color: #0000ff;
+    /* blue;*/
+    
+    bottom: 0;
+    left: 0;
+    border: 7px solid;
+    border-radius: 0 0 0 100%;
+}
+.div4 {
+    background-color: #ffff00;
+    /*yellow;*/
+    
+    bottom: 0;
+    right: 0;
+    border: 7px solid;
+    border-radius: 0 0 100% 0;
+}
+.lightDisplay {
+    color: darkred;
+}
+.main-container {
+    padding-top: 8px;
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    background: #1D1F20;
+    border-radius: 300px;
+    border: 12px solid #242627;
+    -webkit-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.7)
+}
+#simon-brand {
+    background-color: #333232;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-size: xx-large;
+    top: -14px;
+    left: -22px;
+    width: 329px;
+    padding-left: 94px;
+    padding-top: 34px;
+}
+#simon-brand .large {
+    font-size: 41px;
+}
+#level {
+    position: absolute;
+    left: 32px;
+    top: 122px;
+    background-color: #330a0a;
+    padding: 4px;
+    font-weight: bold;
+    width: 44px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+#startDiv {
+    position: absolute;
+    left: 110px;
+    top: 139px;
+    color: #fff;
+}
+#switch {
+    position: absolute;
+    left: 114px;
+    top: 202px;
+    z-index: 2;
+}
+#power {
+    position: relative;
+    top: 9px;
+    width: 75px;
+    height: 25px;
+    z-index: 1;
+    left: -3px;
+    font-weight: bold;
+    background-color: green;
+    padding: 7px;
+    line-height: 17px;
+    width: 60px;
+    height: 51px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+#start {
+    position: relative;
+    top: -24px;
+    left: -53px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ce0c0c;
+    border: 3px solid rgba(72, 68, 68, 0.95);
+}
+#strictDiv {
+    position: absolute;
+    top: 139px;
+    right: 24px;
+    color: #fff;
+}
+.light1 {
+    background-color: #549254;
+}
+.light2 {
+    background-color: #ad6e6e;
+}
+.light3 {
+    background-color: #209cc1;
+}
+.light4 {
+    background-color: #d4d461;
+}
+#strict {
+    position: absolute;
+    top: -25px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ffff00;
+    border: 3px solid rgba(72, 68, 68, 0.95);
+}

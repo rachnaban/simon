@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Simon Game</title>
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href='simon.css' rel='stylesheet' type='text/css'>
+    <script src='simon.js'></script>
+</head>
+<body>
+<audio id="audio1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+    </audio>
+<div class='main-container'>
+<div id='control'>
+	<div id='simon-brand'>SI<span class='large'>mon</span></div>
+	<div id='level'>888</div>
+	<div id='startDiv'>START
+	<button id='start'></button>
+	</div>
+	<div id='strictDiv'>STRICT
+	<button id='strict'></button>
+	</div>
+	<div id='switch'>
+<button id='power'>ON</button></div>
+</div>
+
+<div id='div1' class='div1 playBtn'></div>
+<div id='div2' class='div2 playBtn'></div>
+<div id='div3' class='div3 playBtn'></div>
+<div id='div4' class='div4 playBtn'></div>
+</div>
+
+</body>
+</html>
